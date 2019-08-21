@@ -7,4 +7,4 @@ install:
 # command to run tests
 script:
   - export PYTHONPATH=$PYTHONPATH:$(pwd)
-  - python samplemod-master/tests/test_basic.py
+  - python tests/test_basic.py
